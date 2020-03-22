@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    font-family: 'Merriweather', serif;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li{
+    list-style: none;
+    margin: 25px;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+nav{
+    height: 61px;
+    width: 100%;
+    background-color: black;
+
+    
+    /* opacity: 0.8; */
+    font-family: 'Merriweather', serif;
+    
+
+}
+
+#pic{
+    background: center / contain no-repeat url("/static/bgi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    /* padding-left: 550px; */
+    padding-top: 50px;
+}
+
+.headbox{
+    width: 500px;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+.headbox h1{
+    font-size: 55px;
+    text-align: center;
+}
+
+.headbox h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.headbox h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+#home{
+    margin-left: 280px;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border: 0.5px solid black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+#btn1{
+    margin-left: 300px;
+
+}
+
+.btn{
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #cacac0;
+    font-family: 'Merriweather', serif;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #5a3a3a;
+    color: white;
+}
+
+/* # pic h1{
+    display: flex;
+    color: #150f0f;
+    margin-top: 140px;
+    justify-content: center;
+    font-size: 60px;
+}
+
+#pic h2{
+    display: flex;
+    color: #0a0505
+    margin-top: 35px;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#pic h3{
+    display: flex;
+    color: #0a0505;
+    margin-top: 35px;
+    justify-content: center;
+    font-size: 25px;
+} */
+section h1{
+    text-align: center;
+}
+.box{
+    height: 250px;
+    width: 290px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-content: center; */
+    
+    margin: 150px;
+    border-radius: 15px;
+    /* background-color: violet; */
+    
+}
+
+
+
+.hea{
+
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+    margin: 0px;
+    height: 55px;
+    justify-content: center;
+}
+
+img{
+    height: 180px;
+    width: 200px;
+    /* margin-right: 10px;
+    margin-top: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+
+}
+
+.headi{
+    display: block;
+}
+
+
+
+.box{
+    background-color:white;
+}
+
+
+#btn2{
+    margin-left: 94px;
+    display: inline;
+
+}
+
+.btn3{
+    display: inline;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif;
+    margin-top: 80px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+.btn3:hover{
+    background-color: thistle;
+    color: black;
+}
+
+nav h2,h3{
+    color: black;
+}
+
+#cont3{
+    height: 370px;
+    background-image: none;
+    background: center / contain no-repeat url("/static/sponsors.jpg");
+    /* background-color: #e4d6e4; */
+
+}
+
+#cont2{
+    background-image: none;
+    height: 370px;
+    background-color: #e4d6e4;
+}
+
+#cont{
+    background-color: #e4d6e4;
+    height: 370px;
+}
+
+@media only screen and (min-width: 411px) and (max-width: 600px){
+    #cont{
+        background-color: black;
+        color red;
+    }
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.cust{
+    height: 190px;
+    width: 190px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#cust1{
+    
+    background: center / contain no-repeat url("/static/curry.jpg");
+    background-size: cover;
+}
+#cust2{
+    background: center / contain no-repeat url("/static/kobe.jpg");
+    background-size: cover;
+}
+#cust3{
+    background: center / contain no-repeat url("/static/lebron.jpg");
+    background-size: cover;
+
+}
+#cust4{
+    background: center / contain no-repeat url("/static/magic.jpg");
+    background-size: cover;
+}
+#cust5{
+    background: center / contain no-repeat url("/static/tim.jpg");
+    background-size: cover;
+}
+#cust6{
+    background: center / contain no-repeat url("/static/larry2.jpg");
+    background-size: cover;
+}
+
+

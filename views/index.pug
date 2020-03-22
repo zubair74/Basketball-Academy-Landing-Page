@@ -1,0 +1,74 @@
+doctype html
+html
+  head
+    style
+        include ../static/style.css
+  body
+    nav 
+        ul
+
+            li#home #[a(href = "/") Home] 
+            li #[a(href = "/about") About]
+            li #[a(href = "/classes") Classes]
+            li #[a(href = "/contact us") Contact Us]
+            button.btn#btn1 Call Now
+            button.btn Email Us
+    Section
+      div#pic
+        div.headbox
+          h1 Welcome to Peaking Basketball Center!
+          h2 Have you always wanted to be make your basketball dream come true? 
+          h3 Join us and become a pro in basketball in just two months!
+          button#btn2.btn3 Enroll Now 
+          button.btn3 Learn More 
+    
+    section
+        h1.hea Our mission
+        div.container#cont
+          
+          div.box 
+            div.headi
+              h5 Professional Training
+            div
+              img(src="/static/logo1.jpg")
+          div.box
+            div.headi
+              h5 Cost friendliness
+            div
+              img(src="/static/logo2.jpg")
+          div.box 
+            div.headi
+              h5 Satisfied user feedback
+            div
+              img(src="/static/logo3.jpg")
+
+        h1.hea Our Customers
+        div.container#cont2
+          div
+            h5 Stephen Curry
+            div.cust#cust1 
+          div
+            h5 Kobe Byrant
+            div.cust#cust2
+          div
+            h5 Lebron James
+            div.cust#cust3
+          div
+            h5 Magic Jhonson
+            div.cust#cust4
+          div
+            h5 Tim Duncan
+            div.cust#cust5
+          div
+            h5 Larry Bird
+            div.cust#cust6
+        h1.hea Our Sponsors
+        div.container#cont3 
+
+    footer
+        div.footer 
+          P#hello
+            | Peaking Basketball Center <br/>
+            | Copyright © 2020, Peaking Basketball Center.com	
+    script
+      include ../static/script.js
